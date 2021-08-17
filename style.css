@@ -1,0 +1,30 @@
+body {
+    background-image: url("fundo.jpg");
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: x-large;
+    color: brown;
+    font-family: sans-serif;
+}
+
+.imagens {
+    display: flex;
+    text-align: center;
+}
+
+.nomes {
+    color: darkblue;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+.centro {
+    max-width: 180px;
+    border-color:yellow;
+    border-width: larger;
+}
