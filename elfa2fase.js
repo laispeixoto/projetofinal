@@ -5,7 +5,7 @@ function escolha_elfa() {
      
     var escolha = prompt('O que ela deverá fazer? Fugir ou enfrentar o vampiro?');
       if (escolha === 'enfrentar') {
-
+      alert ('Muito sábia a sua decisão! A Elfa é muito poderosa e conseguiu matar o malvado Tausi. Falta bem pouco para ela encontrar seus companheiros.')
         location.replace('elfa3fase.html')
         break
       }
