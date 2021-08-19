@@ -38,9 +38,10 @@ footer {
 /*imgpginicial*/
 .centro {
     max-width: 180px;
-    border: 5px solid rgb(196, 174, 224)
+    border: 15px solid rgb(196, 174, 224)
     
 }
+
 /*todasaspg*/
 .historia {
     text-align: center;
@@ -53,18 +54,20 @@ footer {
 /*todasaspg*/
 .botaoclique {
     text-align: center;
-    background-color: rgb(42, 26, 49);
     margin: 50px;
 }
 
+
+
 /*imgelfa*/
 .elfaimagens {
-    justify-content: flex-start;
-    max-width:300px;
-    max-height:250px;
-    width: auto;
-    height: auto;
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    width: 100%;
 }
+
+/*pginicial*/
 .figura {
     display: flex;
     justify-items: center;
@@ -79,4 +82,11 @@ footer {
     justify-items: center;
     width: 100%;
     justify-content: center;
+}
+
+/*todasasimgtodasaspg*/
+.elfaimagens>img {
+    width: 250px;
+    object-fit: cover;
+    border: 15px solid rgb(196, 174, 224)
 }
