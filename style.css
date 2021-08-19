@@ -22,6 +22,8 @@ footer {
     color: rgb(23, 23, 44);
     font-size: 180%;
     font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
 }
 
 /*descricaopginicial*/
@@ -29,6 +31,7 @@ footer {
     font-weight: bolder;
     font-size: 92%;
     color: rgb(47, 37, 58);
+    text-align: center;
     /*background-color: rgb(196, 174, 224)*/
 }
 
@@ -61,4 +64,19 @@ footer {
     max-height:250px;
     width: auto;
     height: auto;
+}
+.figura {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+.fotos {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    justify-content: center;
 }
