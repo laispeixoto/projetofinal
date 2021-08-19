@@ -9,6 +9,7 @@ body {
 /*rodapepginicial*/
 footer {
     background-color: aqua;
+    width: 100%;
 }
 
 /*todasaspg*/
@@ -57,7 +58,13 @@ footer {
     margin: 50px;
 }
 
-
+.botao {
+    font-size: x-large;
+    background-color: rgb(42, 26, 49);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(196, 174, 224);
+}
 
 /*imgelfa*/
 .elfaimagens {
