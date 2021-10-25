@@ -12,19 +12,21 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    border-radius: 6px;
 }
 
 /*todasaspg*/
 .imagens {
     display: flex;
     justify-content: center;
+    border-radius: 6px;
 }
 
 /*nomespginicial*/
 .nomes {
     color: rgb(23, 23, 44);
     font-size: 180%;
-    font-family: sans-serif;
+    font-family: cursive;
     justify-content: center;
     text-align: center;
 }
@@ -41,8 +43,8 @@ footer {
 /*imgpginicial*/
 .centro {
     max-width: 180px;
-    border: 15px solid rgb(196, 174, 224)
-    
+    border: 10px solid rgb(196, 174, 224);
+    border-radius: 6px;
 }
 
 /*todasaspg*/
@@ -52,6 +54,7 @@ footer {
     color: rgb(47, 37, 58);
     font-weight: bolder;
     background-color: rgb(158, 81, 230);
+    border-radius: 6px;
 }
 
 /*todasaspg*/
@@ -64,7 +67,7 @@ footer {
     font-size: x-large;
     background-color: rgb(42, 26, 49);
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     border-color: rgb(196, 174, 224);
 }
 
@@ -97,5 +100,6 @@ footer {
 .elfaimagens>img {
     width: 250px;
     object-fit: cover;
-    border: 15px solid rgb(196, 174, 224)
+    border: 10px solid rgb(196, 174, 224);
+    border-radius: 6px;
 }
